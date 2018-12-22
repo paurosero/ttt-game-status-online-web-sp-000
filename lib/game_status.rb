@@ -31,7 +31,6 @@ end
 
 def winner(board)
   result = []
-  element.select{|position| result << board[position]}
   if result == ["X", "X", "X"] || result == ["O","O","O"]
    return element
    end
