@@ -30,5 +30,9 @@ def over?(board)
 end
 
 def winner(board)
+<<<<<<< HEAD
   won?(board).select{|token| token == "X" || token == "O"}
+=======
+  won?(board).select{full?(board)} 
+>>>>>>> e9e2608604891f6f1f7f43560b15c8a198efc18e
 end
