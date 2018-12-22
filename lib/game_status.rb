@@ -31,5 +31,6 @@ end
 
 def winner(board)
   if won?(board)
+    won?(board).first
   end
 end
