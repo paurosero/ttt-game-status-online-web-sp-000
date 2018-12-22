@@ -30,6 +30,6 @@ def over?(board)
 end
 
 def winner(board)
- won?(board).include?(!won?(board))
+ won?(board).include?(x)
 
 end
