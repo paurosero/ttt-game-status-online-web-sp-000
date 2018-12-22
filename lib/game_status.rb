@@ -33,6 +33,6 @@ def winner(board)
   result = []
   won?(board).select{|position| result << board[position]}
   if result == ["X", "X", "X"] || result == ["O","O","O"]
-   return won?(board)
+   return won?(board).first
    end
 end
