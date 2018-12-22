@@ -30,5 +30,7 @@ def over?(board)
 end
 
 def winner(board)
-  won?(board).select{|token| token == "X" || token == "O"}
+  if won?(board)
+    board[won?(board).first]
+  end
 end
