@@ -30,6 +30,5 @@ def over?(board)
 end
 
 def winner(board)
- won?(board).select{|board| won?(board)}
 
 end
