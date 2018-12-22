@@ -30,8 +30,5 @@ def over?(board)
 end
 
 def winner(board)
-  result = []
-  if result == ["X", "X", "X"] || result == ["O","O","O"]
-   
-   end
+  
 end
