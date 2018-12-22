@@ -30,5 +30,9 @@ def over?(board)
 end
 
 def winner(board)
-  
+  result = []
+  won?(board).select{|position| result << board[position]}
+  if result == ["X", "X", "X"] || result == ["O","O","O"]
+   return element
+   end
 end
