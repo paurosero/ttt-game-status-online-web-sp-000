@@ -30,6 +30,6 @@ def over?(board)
 end
 
 def winner(board)
- won?(board).any?{|board| won?(board)}
+ won?(board).first{|board| won?(board)}
 
 end
