@@ -30,9 +30,9 @@ def over?(board)
 end
 
 def winner(board)
+won?(board)
   result = []
   if result == ["X", "X", "X"] || result == ["O","O","O"]
    return element
    end
-   won?(board)
 end
